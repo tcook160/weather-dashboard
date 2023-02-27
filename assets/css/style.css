@@ -1,0 +1,50 @@
+body {
+    background-color: #bcc0c7;
+    }
+    
+    .navbar {
+        color: rgb(248, 244, 244);
+        background: linear-gradient(116deg, #fffcff, #441560);
+        font-family: ui-rounded;
+        font-size: x-large;
+        justify-content: center;
+    }
+    
+    .list-group {
+    display: inline-flex;
+    }
+    
+    #currentweather {
+        border:dotted;
+        background: #1d6ca0;
+    
+    }
+    
+    #searchhistory  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #searchbutton {
+    margin-bottom: 20%;
+    }
+    
+    .btn {
+        background: linear-gradient(116deg, #857b7b, #57d0f5);
+        color: rgb(255, 255, 255);
+        font-size: x-large;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    
+    .forecast {
+    display: flex;
+    }
+    
+    .forecast > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
